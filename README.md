@@ -1,12 +1,22 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Movie Hub - React Vite App
+A modern movie browsing app built with React Vite, Redux, and the TMDB API, featuring a sleek UI with Tailwind CSS. Users can explore trending movies and TV shows, watch trailers, filter by genres/ratings, and manage their personalized watchlist.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Features
+ Trending Movies & TV Shows – Displays the latest trending content.
+ Recommended Videos – Personalized recommendations based on selections.
+ Movie Availability – Shows where a movie is streaming (Netflix, Disney+, etc.).
+ Search Bar – Quickly find any movie or TV show.
+ User Watchlist – Save favorite movies and shows for later.
+ Filters – Sort by genre, rating, and more.
+ Movie Trailers – Watch official trailers directly.
+ Dark Mode – Toggle between light and dark themes.
+ User Authentication – Secure login and signup system.
 
-## Expanding the ESLint configuration
+ Tech Stack
+Frontend: React (Vite) + Redux
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling: Tailwind CSS
+
+API: TMDB API
